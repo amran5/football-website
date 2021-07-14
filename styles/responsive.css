@@ -1,0 +1,129 @@
+/* Display --- Width --- Under --- 1400 px  */
+
+@media (max-width: 1400px) {
+    .container {
+      width: 85%;
+    }
+    .end-single h3 {
+      font-size: 14px;
+    }
+  }
+  
+  /* Display --- Width --- Under --- 992 px  */
+  
+  @media (max-width: 992px) {
+    .container {
+      width: 88%;
+    }
+    .banner-text h1 {
+      font-size: 50px;
+    }
+    .hight-light-text h1 {
+      font-size: 35px;
+    }
+    .player-main {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .head {
+      font-size: 40px;
+    }
+    .hight-light-text {
+      margin-bottom: 50px;
+    }
+    .high-light-main {
+      grid-template-columns: 1fr;
+    }
+    .footer-main {
+      width: 80%;
+    }
+  }
+  
+  /* Display --- Width --- Under --- 830 px  */
+  
+  @media (max-width: 830px) {
+    .container {
+      width: 95%;
+    }
+  }
+  
+  /* Display --- Width --- Under --- 768 px  */
+  
+  @media (max-width: 768px) {
+
+    .banner-main {
+      grid-template-columns: 1fr;
+    }
+    .banner-text h1 {
+      font-size: 35px;
+    }
+    .banner-text {
+      text-align: center;
+    }
+    .banner-image {
+      margin-top: 50px;
+    }
+    .banner-image img {
+      width: 90%;
+    }
+    .player-main {
+      grid-template-columns: 1fr;
+    }
+    
+    .footer-main {
+      width: 100%;
+    }
+  }
+  
+  /* Display --- Width --- Under --- 480 px  */
+  
+  @media (max-width: 480px) {
+    
+    .header-login > .cmn-button {
+      padding: 10px 20px;
+    }
+    .banner-text h1 {
+      font-size: 24px;
+    }
+    .cmn-button {
+      padding: 9px 22px;
+      font-size: 16px;
+    }
+    .head {
+      font-size: 25px;
+      padding-bottom: 10px;
+    }
+    .player-name {
+      font-size: 25px;
+    }
+    .hight-light-text h1 {
+      font-size: 21px;
+    }
+    .footer-section {
+      padding: 0px 0 100px;
+    }
+    .footer-text p {
+      font-size: 14px;
+    }
+    .footer-image img {
+      width: 206px;
+    }
+    .footer-social ul li a {
+      height: 40px;
+      width: 40px;
+      font-size: 18px;
+      line-height: 40px;
+      margin: 0 8px;
+    }
+    .banner-main {
+      grid-gap: 0;
+      grid-row-gap: 30px;
+    }
+    .player-main {
+      grid-gap: 0;
+      grid-row-gap: 40px;
+    }
+    
+  }
+  
+  
+  
